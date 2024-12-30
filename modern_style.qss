@@ -1,0 +1,168 @@
+/* General Window Background */
+QMainWindow {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* Header Label */
+QLabel#headerLabel {
+    font-size: 24px;
+    font-weight: bold;
+    color: #343a40;
+    padding: 10px;
+    border-bottom: 2px solid #0078d4;
+    text-align: center;
+}
+
+/* Input Fields (QLineEdit) */
+QLineEdit {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 14px;
+    color: #495057;
+}
+
+QLineEdit:focus {
+    border: 1px solid #0078d4;
+    outline: none;
+}
+
+/* ComboBoxes */
+QComboBox {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 14px;
+    color: #495057;
+}
+
+QComboBox QAbstractItemView {
+    border: 1px solid #ced4da;
+    background-color: #ffffff;
+    selection-background-color: #0078d4;
+    selection-color: #ffffff;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 12px;
+    margin: 5px;
+}
+
+QPushButton:hover {
+    background-color: #0056b3;
+}
+
+QPushButton:pressed {
+    background-color: #003f7f;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+/* Table Styles */
+QTableWidget {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    gridline-color: #dee2e6;
+    alternate-background-color: #f8f9fa;
+    font-size: 14px;
+}
+
+QTableWidget::item {
+    padding: 5px;
+    border: none;
+}
+
+QTableWidget::item:selected {
+    background-color: #0078d4;
+    color: white;
+}
+
+QHeaderView::section {
+    background-color: #0078d4;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+}
+
+QHeaderView::section:horizontal {
+    border-bottom: 1px solid #dee2e6;
+}
+
+QHeaderView::section:vertical {
+    border-right: 1px solid #dee2e6;
+}
+
+/* Google Map View (QWebEngineView) */
+QWebEngineView {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+/* Error Dialogs */
+QMessageBox {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    color: #495057;
+}
+
+QMessageBox QLabel {
+    font-size: 14px;
+    color: #212529;
+}
+
+/* Scrollbars */
+QScrollBar:vertical, QScrollBar:horizontal {
+    background-color: #f1f3f5;
+    border: none;
+    border-radius: 5px;
+    width: 10px;
+    margin: 2px;
+}
+
+QScrollBar::handle {
+    background-color: #ced4da;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:hover {
+    background-color: #0078d4;
+}
+
+QScrollBar::sub-line, QScrollBar::add-line {
+    background: none;
+    border: none;
+}
+
+/* Tooltips */
+QToolTip {
+    background-color: #0078d4;
+    color: white;
+    border: 1px solid #0056b3;
+    padding: 5px;
+    font-size: 12px;
+}
+
+/* Footer Styling */
+QLabel#footerLabel {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    border-top: 1px solid #dee2e6;
+}
