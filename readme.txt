@@ -28,10 +28,10 @@ Sorry for the inconvenience and thank you for the consideration.
   - Uses Flask to set up a web-based interface for users
   - Includes email notification support for sending results
   - Leverages Google Colab and Google Drive integration for storing and retrieving project files
-  - **Text Analysis**: Natural language processing techniques to extract meaningful information from job descriptions
-  - **Skill Extraction**: Identification of in-demand technical and soft skills
-  - **Market Segmentation**: Categorization of job listings by industry, role type, and seniority level
-  - **Trend Visualization**: Graphical representation of job market trends over time
+  - Text Analysis: Natural language processing techniques to extract meaningful information from job descriptions
+  - Skill Extraction: Identification of in-demand technical and soft skills
+  - Market Segmentation: Categorization of job listings by industry, role type, and seniority level
+  - Trend Visualization: Graphical representation of job market trends over time
 
 ## Setup Instructions for Spyder Code
 
@@ -72,9 +72,9 @@ Use the public access key that would look like the following:
 ## Analysis & Visualization
 
 The project includes several types of analyses:
-  1. **Demand Analysis**: Identifying the most in-demand roles and skills
-  2. **Geographic Distribution**: Mapping job opportunities by location
-  3. **Skill Correlation**: Finding relationships between different skill requirements
+  1. Demand Analysis: Identifying the most in-demand roles and skills
+  2. Geographic Distribution: Mapping job opportunities by location
+  3. Skill Correlation: Finding relationships between different skill requirements
 
 Visualizations are generated using:
   - Matplotlib
