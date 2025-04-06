@@ -1,6 +1,3 @@
-
-# Final Project - Python Job Scraper
-
 ## Note
 The project integrates Google Colab and Google Drive for easier collaboration and file management. Ensure the required directories exist before running the project.  
 We have were having a few issues running the google colab code at the end moment because of a few crucial APIs not working (i.e. job scraping related). We are submitting a spyder code for the same that lacks in comparison to it.
